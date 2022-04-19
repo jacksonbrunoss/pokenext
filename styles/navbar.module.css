@@ -1,0 +1,28 @@
+.Navbar {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.Container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ContentNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8px;
+}
+
+.Menu ul {
+  display: flex;
+}
+.Menu ul li {
+  margin: 5px 0px 5px 30px;
+}
+.Menu ul li a {
+  color: #D60509;
+  text-transform: uppercase;
+}

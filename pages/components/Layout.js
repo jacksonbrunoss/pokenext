@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 import Head from 'next/head';
 
-export default function Layout({Children}) {
+export default function Layout({children}) {
   return (
     <>
     <Head>
@@ -11,8 +11,10 @@ export default function Layout({Children}) {
       <title>PokeNext - Aplicação para estudo de Nextjs.</title>
     </Head>
       <Navbar />
-      <main>
-        {Children}
+      <main className="content-main">
+        <div className="container-general">
+          {children}
+        </div>
       </main>
       <Footer />
     </>

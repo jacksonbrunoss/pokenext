@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, p, a{
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.content-main {
+  min-height: 70vh;
+}
+.container-general {
+  max-width: 900px;
+  margin: 0 auto;
+}
